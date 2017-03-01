@@ -1,5 +1,6 @@
+package com.demo;
 
-public class HelloWorld {
+public class SumAndAverage2nd {
 
 	public static void main(String[] args) {
 		sum(100);
