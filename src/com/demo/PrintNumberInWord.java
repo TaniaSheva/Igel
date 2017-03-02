@@ -3,9 +3,12 @@ import java.util.Scanner;
 
 public class PrintNumberInWord {
 
+	private static Scanner in;
+
 	public static void main(String[] args) {
-		System.out.println("Please type a number you want to see written");
-		Scanner in = new Scanner(System.in);
+		System.out.print("Please type a number you want to see written");
+		System.out.println();
+		in = new Scanner(System.in);
 		int number = in.nextInt();
 		
 		switch (number) {
