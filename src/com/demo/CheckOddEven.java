@@ -15,9 +15,9 @@ public class CheckOddEven  {
 
 	}
 	public static void isNumberOdd(int number) {
-		double leftover = number%2;
+		double remainder = number%2;
 	
-		if (leftover == 0) {
+		if (remainder == 0) {
 			System.out.println(number + " is an Even number");
 		}
 		else  {
