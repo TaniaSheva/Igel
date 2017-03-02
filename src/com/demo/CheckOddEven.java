@@ -1,19 +1,27 @@
 package com.demo;
 
-public class CheckOddEven  {
+import java.util.Scanner;
 
+public class CheckOddEven  {
+	
+	private static Scanner a;
 	public static void main(String[] args) {
-		isNumberOdd(-18);
+		
+		System.out.print("Please type a number you want to check");
+		System.out.println();
+		a = new Scanner(System.in);
+		int number = a.nextInt();
+		isNumberOdd(number);
 
 	}
-	public static void isNumberOdd(int a) {
-		double b = a%2;
+	public static void isNumberOdd(int number) {
+		double leftover = number%2;
 	
-		if (b == 0) {
-			System.out.println( a + " is an Even number");
+		if (leftover == 0) {
+			System.out.println(number + " is an Even number");
 		}
-		else if (b > 0 || b < 0) {
-			System.out.println(a + " is an Odd number");
+		else  {
+			System.out.println(number + " is an Odd number");
 		}
 		
 		
