@@ -25,6 +25,7 @@ public class PeoplePortfolio {
 		//we don't need setters here as we used a constructor with parameters
 		
 		System.out.println("First person:");
+		//used printData method as per description
 		person1.pritnData();
 
 		System.out.print("Please type 2-nd person name");
@@ -49,6 +50,7 @@ public class PeoplePortfolio {
 		person2.setSurname(surname2);
 		person2.setEmail(email2);
 		
+		//here I use getters
 		System.out.println("Second person:");
 		System.out.println("Name is "+ person2.getName());
 		System.out.println("Surname is " + person2.getSurname());
