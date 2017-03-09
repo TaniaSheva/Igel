@@ -25,20 +25,16 @@ public class Demo {
 		
 		switch (action) {
 		case "sum":
-			double c = calculator.sum(a,b);
-			System.out.println("The summ of " + a + " and " + b + " is " + c);
+			calculator.sum(a,b);
 				break;
 		case "sub":
-			double d = calculator.sub(a,b);
-			System.out.println("The sub of " + a + " and " + b + " is " + d);
+			calculator.sub(a,b);
 				break;
 		case "div":
-			double e = calculator.div(a,b);
-			System.out.println("The div of " + a + " and " + b + " is " + e);
+			calculator.div(a,b);
 				break;
 		case "mult":
-			double m = calculator.mult(a,b);
-			System.out.println("The mult of " + a + " and " + b + " is " + m);
+            calculator.mult(a,b);
 				break;
 		default: 
 			System.out.println("Please check inserted data!");

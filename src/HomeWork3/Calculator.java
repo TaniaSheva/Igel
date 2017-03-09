@@ -1,22 +1,22 @@
 package HomeWork3;
 
 public class Calculator {
-	public double div (double a,double b){
+	public void div (double a,double b){
 		double result = a/b;
-		return result;
+		System.out.println("The div of " + a + " and " + b + " is " + result);
 	}
-	public double mult (double a,double b){
+	public void mult (double a,double b){
 		double result = a*b;
-		return result;
+		System.out.println("The mult of " + a + " and " + b + " is " + result);
 	}
 	
-	public double sum (double a,double b){
+	public void sum (double a,double b){
 		double result = a+b;
-		return result;
+		System.out.println("The sum of " + a + " and " + b + " is " + result);
 	}
 	
-	public double sub (double a,double b){
+	public void sub (double a,double b){
 		double result = a - b;
-		return result;
+		System.out.println("The sub of " + a + " and " + b + " is " + result);
 	}
 }
