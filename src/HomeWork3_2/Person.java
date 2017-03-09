@@ -47,9 +47,9 @@ public class Person {
 	}
 	
 	public void pritnData(){
-		System.out.println("Name is: " + name);
-		System.out.println("Surname is: " + surname);
-		System.out.println("Email is: " + email);
+		System.out.println("Name is: " + getName());
+		System.out.println("Surname is: " + getSurname());
+		System.out.println("Email is: " + getEmail());
 	}
 
 }

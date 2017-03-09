@@ -50,11 +50,8 @@ public class PeoplePortfolio {
 		person2.setSurname(surname2);
 		person2.setEmail(email2);
 		
-		//here I use getters
 		System.out.println("Second person:");
-		System.out.println("Name is "+ person2.getName());
-		System.out.println("Surname is " + person2.getSurname());
-		System.out.println("Email is " + person2.getEmail());
+		person2.pritnData();
 		
 		
 	}
