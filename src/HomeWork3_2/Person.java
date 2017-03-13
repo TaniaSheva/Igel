@@ -1,9 +1,9 @@
 package HomeWork3_2;
 
 public class Person {
-	String name;
-	String surname;
-	String email;
+	private String name;
+	private String surname;
+	private String email;
 	
 	Person (){
 
