@@ -1,8 +1,8 @@
 package HomeWork4;
 
 public class UseTimeServer {
-
 	public static void main(String[] args) {
+		
 		TimeServer timeServer1 = new TimeServer(10); //first implementation
 		TimeServer timeServer2 = new TimeServer(5); //second implementation
 		
