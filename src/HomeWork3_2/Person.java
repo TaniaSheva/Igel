@@ -1,9 +1,9 @@
 package HomeWork3_2;
 
 public class Person {
-	String name;
-	String surname;
-	String email;
+	private String name;
+	private String surname;
+	private String email;
 	
 	Person (){
 
@@ -17,32 +17,32 @@ public class Person {
 
 	public void setName(String inputName){
 		
-		name = inputName;
+		this.name = inputName;
 		
 	}
 	public void setSurname(String inputSurname){
 		
-		surname = inputSurname;
+		this.surname = inputSurname;
 		
 	}
 	public void setEmail(String inputEmail){
 		
-		email = inputEmail;
+		this.email = inputEmail;
 		
 	}
 	public String getName(){
 		
-		return name;
+		return this.name;
 		
 	}
 	public String getSurname(){
 		
-		return surname;
+		return this.surname;
 		
 	}
 	public String getEmail(){
 		
-		return email;
+		return this.email;
 		
 	}
 	
