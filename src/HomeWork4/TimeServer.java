@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Date;
 
-public class TimeServer extends TimerTask implements TimeNotifier{
+public class TimeServer extends TimerTask implements TimeNotifier, ObserversRegistrator{
 	private int period;
 	private Timer timer = new Timer ();
 	private ArrayList <TimeObserver> observers = new ArrayList <TimeObserver> ();
