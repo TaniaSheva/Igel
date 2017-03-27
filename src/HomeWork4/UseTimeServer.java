@@ -11,7 +11,7 @@ public class UseTimeServer {
 		
 		timeServer1.addObserver(timeObserver1);
 		timeServer2.addObserver(timeObserver2);
-		Thread.sleep(15000);
+		Thread.sleep(16000);
 		timeServer1.removeObserver(timeObserver1); //встигає двічі нотіфайнутись і видаляється
 		timeServer2.removeObserver(timeObserver2); //встигає нотіфайнутись 1 раз і видаляється
 	}
