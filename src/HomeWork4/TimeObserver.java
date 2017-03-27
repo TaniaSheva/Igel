@@ -6,7 +6,6 @@ import java.util.Date;
 public class TimeObserver implements NotificationCenter {
 	private String name;
 	
-	@Override
 	public void updateWithDate (Date date) {
 		DateFormat dateFormat = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 		System.out.println(this.name + ":" + dateFormat.format(date)); 
