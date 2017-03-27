@@ -4,7 +4,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.Date;
 
-public class TimeServer extends TimerTask {
+public class TimeServer extends TimerTask implements TimeNotifier{
 	private int period;
 	private Timer timer = new Timer ();
 	private ArrayList <TimeObserver> observers = new ArrayList <TimeObserver> ();
@@ -29,7 +29,7 @@ public class TimeServer extends TimerTask {
 	public void removeObserver (TimeObserver observer){
 		observers.remove(observer);
 	}
-	private void notifyObservers (Date date) {
+	public void notifyObservers (Date date) {
 		for (TimeObserver observer: observers) {
 			observer.updateWithDate(date);
 		}
