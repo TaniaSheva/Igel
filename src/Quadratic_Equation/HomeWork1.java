@@ -1,4 +1,4 @@
-package com.demo;
+package Quadratic_Equation;
 
 public class HomeWork1 {
 
