@@ -1,13 +1,16 @@
 package Quadratic_Equation;
 
+import java.util.ArrayList;
+
 public class HomeWork1 {
 
 	public static void main(String[] args) {
-		double a = 1;
-		double b = 2;
-		double c = 1;
+		double a = 0;
+		double b = 0;
+		double c = 0;
 		
-		Equation_Solution_Finder.findSolutions(a,b,c);
+		ArrayList <Double> results = Equation_Solution_Finder.findSolutions(a,b,c);
+		Equation_Solution_Finder.printSolutions(results);
 		
 		}
 	}
