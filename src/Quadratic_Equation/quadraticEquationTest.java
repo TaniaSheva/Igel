@@ -17,8 +17,8 @@ public class quadraticEquationTest {
 	}
 	@Test
 	public void testDEqualsZero() {
-		Equation_Solution_Finder method = new Equation_Solution_Finder
-		assertEquals(-1,Equation_Solution_Finder.findSolutions(1,2,1));
+		
+		assertEquals(-1.0, Equation_Solution_Finder.findSolutions(1,2,1),0);
 
 	}
 	
