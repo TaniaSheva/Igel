@@ -2,7 +2,6 @@ package Quadratic_Equation;
 
 import static org.junit.Assert.*;
 
-import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 
 import org.junit.Test;
@@ -23,7 +22,6 @@ public class quadraticEquationTest {
 		assertEquals(result.size(), 1);
 		assertEquals(result.get(0), -1.0, 0.001);
 	}
-	
 	
 	@Test
 	public void testDMoreThanZero() {
