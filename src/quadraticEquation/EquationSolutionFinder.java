@@ -1,8 +1,8 @@
-package Quadratic_Equation;
+package quadraticEquation;
 
 import java.util.ArrayList;
 
-public class Equation_Solution_Finder {
+public class EquationSolutionFinder {
 	
 	public static ArrayList <Double> findSolutions (double a, double b, double c) {
 		ArrayList <Double> result = new ArrayList<>();

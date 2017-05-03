@@ -1,4 +1,4 @@
-package Quadratic_Equation;
+package quadraticEquation;
 
 import static org.junit.Assert.*;
 
@@ -12,7 +12,7 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
 @RunWith(value=Parameterized.class)
-public class parametrizedTest {
+public class ParametrizedTest {
 	
 	private ArrayList <Double> expected;
 	private ArrayList <Double> value;
@@ -54,14 +54,14 @@ public class parametrizedTest {
 			{ expected4, value4 } });
 	}
 
-	 public parametrizedTest(ArrayList <Double> expected, ArrayList <Double> value) { 
+	 public ParametrizedTest(ArrayList <Double> expected, ArrayList <Double> value) { 
 	        this.expected = expected;
 	        this.value = value;    
 	 } 
 	 
 	 @Test
 	 public void test() {
-		 assertEquals(expected, Equation_Solution_Finder.findSolutions(value.get(0), value.get(1), value.get(2)));    
+		 assertEquals(expected, EquationSolutionFinder.findSolutions(value.get(0), value.get(1), value.get(2)));    
 	 }
 
 }
