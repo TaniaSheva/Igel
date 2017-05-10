@@ -1,0 +1,7 @@
+.//*[@id='ctl00_ContentPlaceholder1_RadDropDownProducts_DropDown']/div/ul/li[4]
+.//div[@id='ctl00_ContentPlaceholder1_RadDropDownProducts_DropDown']/div/ul/li[last()-72]
+.//li[4]
+.//*[@class='rddlList']/li[4]
+.//ul[@class='rddlList']/li[4]
+.//li[3]/following-sibling::li[1]
+.//li[5]/preceding-sibling::li[1]
