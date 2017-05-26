@@ -1,0 +1,5 @@
+css=ul[class=rddlList] li:nth-of-type(4)
+css=ul[class=rddlList] li:nth-child(4)
+css=div[class=rddlPopup rddlPopup_Sunset] li:nth-child(4)
+css=ul[class=rddlList] li:nth-last-child(74)
+css=form#aspnetForm ul[class=rddlList] li:nth-child(4)
